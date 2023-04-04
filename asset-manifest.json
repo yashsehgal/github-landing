@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/github-landing/static/css/main.e6e2b525.css",
+    "main.js": "/github-landing/static/js/main.5abd4684.js",
+    "static/js/787.81d5b727.chunk.js": "/github-landing/static/js/787.81d5b727.chunk.js",
+    "static/media/Mona-Sans.ttf": "/github-landing/static/media/Mona-Sans.7fae628b329f4d1ccdb8.ttf",
+    "static/media/spacecraft.svg": "/github-landing/static/media/spacecraft.d28076390c91abaff29cb65fdb0a17da.svg",
+    "static/media/timeline-flow.svg": "/github-landing/static/media/timeline-flow.ec713c667ab587a5899852fa49c5e18a.svg",
+    "static/media/copilot.svg": "/github-landing/static/media/copilot.d7f07e49835f0c0a911e8a964918863b.svg",
+    "static/media/notification.svg": "/github-landing/static/media/notification.fe385373c69915cbad07224c7f12d380.svg",
+    "static/media/gh-logo.svg": "/github-landing/static/media/gh-logo.eff950ee3585076f4afbaf0c33bbbcde.svg",
+    "index.html": "/github-landing/index.html",
+    "static/media/create.svg": "/github-landing/static/media/create.6542e6e89231e25db95c6ddad4ff7486.svg",
+    "static/media/dropdown-arrow.svg": "/github-landing/static/media/dropdown-arrow.1a0eec6765834192624a9c4d2badede3.svg",
+    "static/media/slash-command-icon.svg": "/github-landing/static/media/slash-command-icon.c70e396f7441bd031c4656fdb871f880.svg",
+    "main.e6e2b525.css.map": "/github-landing/static/css/main.e6e2b525.css.map",
+    "main.5abd4684.js.map": "/github-landing/static/js/main.5abd4684.js.map",
+    "787.81d5b727.chunk.js.map": "/github-landing/static/js/787.81d5b727.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6e2b525.css",
+    "static/js/main.5abd4684.js"
+  ]
+}
