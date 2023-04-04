@@ -1,8 +1,7 @@
 {
-  "short_name": "GitHub: Let's build from here",
-  "name": "Let's build from here",
-  "icons": [
-  ],
+  "short_name": "GitHub",
+  "name": "GitHub: Let's build from here",
+  "icons": [],
   "start_url": ".",
   "display": "standalone",
   "theme_color": "#000000",

@@ -1,3 +1,16 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* importing style modules */
+@import url('./styles/breakpoints.css');
+
+html,
+body {
+  @apply bg-gh-primary font-product;
+}
+
+@font-face {
+  font-family: 'Mona Sans';
+  src: url('./lib/fonts/Mona-Sans.ttf');
+}
