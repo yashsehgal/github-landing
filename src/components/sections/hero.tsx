@@ -1,10 +1,7 @@
 import Section from '../layouts/section';
 
-import { ReactComponent as TimelineFlow } from '../../lib/media/timeline-flow.svg';
 import Spacecraft from '../../lib/media/spacecraft.svg';
 import CopilotCTA from '../ui/copilot-cta';
-import CodeSectionIcon from '../../lib/media/section-assets/code.svg';
-import CodeToProductivitySectionLine from '../../lib/media/section-assets/code-to-productivity.svg';
 import { ArrowDownRight } from 'lucide-react';
 import {
   KPMGLogo,
@@ -19,7 +16,7 @@ import Button from '../ui/button';
 const HeroSection: React.FunctionComponent = () => {
   return (
     <Section className="hero-section mt-56 relative" id="hero">
-      <span className="absolute animate-bounce transition-all duration-slow ease-in-out right-0 -top-42 max-2xl:right-6 max-md:top-24 max-md:right-2">
+      <span className="absolute animate-bounce transition-all duration-slow ease-in-out right-0 -top-48 max-2xl:right-6 max-md:top-24 max-md:right-2">
         <img
           src={Spacecraft}
           alt="spacecraft"
@@ -29,10 +26,10 @@ const HeroSection: React.FunctionComponent = () => {
       <Section className="hero-section-content-container top-[140px] left-16">
         <CopilotCTA />
         <div className="hero-section-content-body-wrapper my-4">
-          <h1 className="leading-snug text-white font-semibold text-[96px]">
+          <h1 className="leading-snug text-white font-semibold text-[96px] max-xl:text-7xl">
             {"Let's build from here"}
           </h1>
-          <p className="leading-[42px] text-gray-500 font-normal text-3xl w-[50ch]">
+          <p className="leading-[42px] text-gray-500 font-normal text-3xl w-[50ch] max-xl:text-2xl">
             {
               'Harnessed for productivity. Designed for collaboration. Celebrated for built-in security. Welcome to the platform developers love.'
             }
