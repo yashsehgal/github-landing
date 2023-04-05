@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/github-landing/static/css/main.60b2db45.css",
-    "main.js": "/github-landing/static/js/main.4ca405c1.js",
+    "main.css": "/github-landing/static/css/main.5f6c2ab6.css",
+    "main.js": "/github-landing/static/js/main.ca3c4d0b.js",
     "react-syntax-highlighter/refractor-core-import.js": "/github-landing/static/js/react-syntax-highlighter/refractor-core-import.2ae93659.chunk.js",
     "react-syntax-highlighter_languages_refractor_abap.js": "/github-landing/static/js/react-syntax-highlighter_languages_refractor_abap.96536946.chunk.js",
     "react-syntax-highlighter_languages_refractor_actionscript.js": "/github-landing/static/js/react-syntax-highlighter_languages_refractor_actionscript.e1dc4aed.chunk.js",
@@ -175,8 +175,8 @@
     "static/media/create.svg": "/github-landing/static/media/create.6542e6e89231e25db95c6ddad4ff7486.svg",
     "static/media/dropdown-arrow.svg": "/github-landing/static/media/dropdown-arrow.1a0eec6765834192624a9c4d2badede3.svg",
     "static/media/slash-command-icon.svg": "/github-landing/static/media/slash-command-icon.c70e396f7441bd031c4656fdb871f880.svg",
-    "main.60b2db45.css.map": "/github-landing/static/css/main.60b2db45.css.map",
-    "main.4ca405c1.js.map": "/github-landing/static/js/main.4ca405c1.js.map",
+    "main.5f6c2ab6.css.map": "/github-landing/static/css/main.5f6c2ab6.css.map",
+    "main.ca3c4d0b.js.map": "/github-landing/static/js/main.ca3c4d0b.js.map",
     "refractor-core-import.2ae93659.chunk.js.map": "/github-landing/static/js/react-syntax-highlighter/refractor-core-import.2ae93659.chunk.js.map",
     "react-syntax-highlighter_languages_refractor_abap.96536946.chunk.js.map": "/github-landing/static/js/react-syntax-highlighter_languages_refractor_abap.96536946.chunk.js.map",
     "react-syntax-highlighter_languages_refractor_actionscript.e1dc4aed.chunk.js.map": "/github-landing/static/js/react-syntax-highlighter_languages_refractor_actionscript.e1dc4aed.chunk.js.map",
@@ -332,7 +332,7 @@
     "787.81d5b727.chunk.js.map": "/github-landing/static/js/787.81d5b727.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.60b2db45.css",
-    "static/js/main.4ca405c1.js"
+    "static/css/main.5f6c2ab6.css",
+    "static/js/main.ca3c4d0b.js"
   ]
 }
