@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkgithub_landing=self.webpackChunkgithub_landing||[]).push([[1438],{7209:function(n){function a(n){n.languages.arff={comment:/%.*/,string:{pattern:/(["'])(?:\\.|(?!\1)[^\\\r\n])*\1/,greedy:!0},keyword:/@(?:attribute|data|end|relation)\b/i,number:/\b\d+(?:\.\d+)?\b/,punctuation:/[{},]/}}n.exports=a,a.displayName="arff",a.aliases=[]}}]);
+//# sourceMappingURL=react-syntax-highlighter_languages_refractor_arff.6abf2cf0.chunk.js.map
