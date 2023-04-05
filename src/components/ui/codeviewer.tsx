@@ -26,7 +26,7 @@ const CodeViewer: React.FunctionComponent = () => {
           <span className="reload-icon-wrapper text-gray-500">
             <RefreshCcw className="w-4 h-4" />
           </span>
-          <span className="font-normal text-xs text-white">
+          <span className="font-normal text-xs text-white truncate max-md:w-[24ch]">
             {'mona-github-github-g59jpq2w5w7.github.dev'}
           </span>
           <span className="lock-icon-wrapper text-gray-500">
@@ -36,8 +36,8 @@ const CodeViewer: React.FunctionComponent = () => {
         <Plus className="text-gray-500" />
       </div>
       <div className="code-viewer-body-wrapper flex flex-row items-start justify-start overflow-hidden">
-        <div className="sidebar h-[540px] p-6 border-r border-gray-700">
-          <Menu className="text-gray-500" />
+        <div className="sidebar h-[540px] p-6 border-r border-gray-700 max-lg:p-3">
+          <Menu className="text-gray-500 max-lg:w-5 max-lg:h-5" />
         </div>
         <div className="screen-content-container">
           <div className="code-content-wrapper h-[540px] border-r border-gray-700">

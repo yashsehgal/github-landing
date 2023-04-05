@@ -38,10 +38,12 @@ root.render(
             alt="hero-bg"
             aria-hidden="true"
             width="2377"
-            className="position-absolute top-0 events-none"
+            className="max-lg:absolute top-0 events-none"
             src="https://github.githubassets.com/images/modules/site/home-campaign/hero-bg.webp"
             style={{
               maxWidth: 'calc(230vw + 1670px)',
+              backgroundAttachment: 'fixed',
+              backgroundSize: 'cover',
             }}
           />
         </picture>
