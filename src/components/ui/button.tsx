@@ -10,7 +10,7 @@ const ButtonVariantStyle = {
   primary:
     'bg-white px-6 py-3 rounded-md font-semibold text-gh-primary text-sm border-2 border-transparent hover:shadow-xl hover:shadow-gh-ui-base',
   outline:
-    'bg-transparent px-6 py-3 rounded-md font-semibold text-white text-sm border-2 border-gh-purple hover:border-white',
+    'bg-transparent px-6 py-3  rounded-md font-semibold text-white text-sm border-2 border-gh-purple hover:border-white',
 };
 
 const Button: React.FunctionComponent<ButtonProps> = ({

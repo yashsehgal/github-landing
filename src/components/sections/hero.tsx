@@ -29,12 +29,12 @@ const HeroSection: React.FunctionComponent = () => {
           <h1 className="leading-snug text-white font-semibold text-[96px] max-xl:text-7xl">
             {"Let's build from here"}
           </h1>
-          <p className="leading-[42px] text-gray-500 font-normal text-3xl w-[50ch] max-xl:text-2xl">
+          <p className="leading-[42px] text-gray-500 font-normal text-3xl w-[50ch] max-xl:text-2xl max-md:text-lg max-md:w-[42ch]">
             {
               'Harnessed for productivity. Designed for collaboration. Celebrated for built-in security. Welcome to the platform developers love.'
             }
           </p>
-          <div className="flex flex-row items-center justify-start gap-4 mt-6">
+          <div className="flex flex-row items-center justify-start gap-4 mt-6 max-md:grid max-md:grid-cols-1">
             <Button>Explore all features</Button>
             <Button variant={'outline'}>Start a free enterprise trial</Button>
           </div>
@@ -43,7 +43,7 @@ const HeroSection: React.FunctionComponent = () => {
               {"Trusted by the world's leading organizations"}
               <ArrowDownRight className="w-4 h-4" />
             </h4>
-            <ul className="company-list mt-4 flex flex-row items-center justify-start gap-12">
+            <ul className="company-list mt-4 flex flex-row items-center justify-start gap-12 max-lg:grid max-lg:grid-cols-5 max-sm:grid-cols-3">
               <img src={StripeLogo} className="h-[32px]" />
               <img src={PinterestLogo} className="h-[32px]" />
               <img src={KPMGLogo} className="h-[32px]" />
