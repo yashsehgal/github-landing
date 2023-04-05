@@ -9,12 +9,12 @@ import ProductitySectionTimeline from '../../lib/media/section-assets/git-branch
 const Productivity: React.FunctionComponent = () => {
   return (
     <Section
-      className="productivity-section relative my-[160px]"
+      className="productivity-section relative my-[160px] max-xl:mt-[250px] max-lg:mt-[100px] max-md:mt-[90px] max-sm:mt-[92px]"
       id="productivity">
-      <h2 className="leading-snug text-white font-medium text-2xl">
+      <h2 className="leading-snug text-white font-medium text-xl max-sm:text-base">
         {'Productivity'}
       </h2>
-      <p className="mt-4 leading-[42px] text-white font-medium text-4xl w-[50ch]">
+      <p className="mt-4 leading-[42px] text-white font-medium text-4xl w-[50ch] max-md:text-2xl max-sm:text-lg">
         <span className="text-gh-green">
           Accelerate high-quality software <br />
           development.
@@ -28,7 +28,7 @@ const Productivity: React.FunctionComponent = () => {
       </div>
       <div>
         <div>
-          <h3 className="text-gray-500 font-medium text-2xl">
+          <h3 className="text-gray-500 font-medium text-2xl max-md:text-base">
             <span className="text-white">GitHub Codespaces</span> offers a
             complete dev <br />
             environment in seconds, so you can code, <br />
@@ -37,7 +37,7 @@ const Productivity: React.FunctionComponent = () => {
           </h3>
           <LinkAction className="mt-4">Check out GitHub Codespaces</LinkAction>
         </div>
-        <div className="absolute right-40 bottom-12 text-white">
+        <div className="absolute right-40 bottom-12 text-white max-xl:right-20 max-xl:w-[240px] max-:mx-auto max-xl:bottom-36 max-lg:hidden">
           <img
             src={PortsSS}
             width={'340px'}
@@ -45,11 +45,11 @@ const Productivity: React.FunctionComponent = () => {
           />
           <img
             src={OptionsPaletteSS}
-            className="absolute -right-36 bottom-12 w-[440px] rounded-md border border-gray-900 shadow-xl"
+            className="absolute -right-36 bottom-12 w-[440px] rounded-md border border-gray-900 shadow-xl max-xl:w-[320px]"
           />
         </div>
       </div>
-      <div className="did-you-know-section absolute mt-24 flex flex-row items-center justify-start gap-4 w-full -left-12">
+      <div className="did-you-know-section absolute mt-24 flex flex-row items-center justify-start gap-4 w-full -left-12 max-md:-left-6">
         <img src={ProductitySectionTimeline} />
         <div className="flex flex-col items-start gap-4">
           <span className="text-gh-green border border-gh-green rounded-full px-3 py-1.5 text-xs">

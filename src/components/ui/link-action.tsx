@@ -9,7 +9,7 @@ const LinkAction: React.FunctionComponent<
   return (
     <button
       className={cn(
-        'hover-underline-animation py-2 bg-transparent text-xl font-semibold text-white flex flex-row items-center justify-center gap-2 hover:gap-3 transition-all',
+        'hover-underline-animation py-2 bg-transparent text-xl max-md:text-base font-semibold text-white flex flex-row items-center justify-center gap-2 hover:gap-3 transition-all',
         className,
       )}
       onMouseEnter={() => setMouse(true)}

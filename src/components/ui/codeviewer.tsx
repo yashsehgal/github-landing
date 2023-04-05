@@ -111,7 +111,7 @@ const CodeViewer: React.FunctionComponent = () => {
             </div>
           </div>
         </div>
-        <div>
+        <div className="max-xl:hidden">
           <div className="code-viewer-header p-4 flex flex-row items-center justify-between border-b border-gray-700">
             <Menu className="text-white" />
             <img src={GHLogo} width={'30'} height={'30'} alt="github-logo" />

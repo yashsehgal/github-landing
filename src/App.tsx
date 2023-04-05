@@ -8,7 +8,10 @@ function App() {
   return (
     <div className="app">
       <ViewContainer className="relative">
-        <img src={Timeline} className="absolute -top-72 -left-24" />
+        <img
+          src={Timeline}
+          className="absolute -top-72 -left-24 max-md:-left-[70px]"
+        />
         <main className="hero-section-container">
           <HeroSection />
         </main>
