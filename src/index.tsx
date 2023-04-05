@@ -22,7 +22,7 @@ root.render(
           maxWidth: 'calc(280vw + 1270px)',
         }}
       /> */}
-      <div className="container-xl absolute right-[1040px]">
+      <div className="container-xl absolute right-[1040px] -z-20">
         <picture>
           <source
             media="(max-width: 768px)"

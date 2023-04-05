@@ -17,22 +17,28 @@ const Navbar: React.FunctionComponent<NavbarProps> = ({
   return (
     <nav
       className={cn(
-        'navbar px-8 py-4 flex flex-row items-center justify-between',
+        'navbar px-8 py-4 flex flex-row items-center justify-between z-10',
         className,
       )}
       {...attr}>
-        <div className="mobile-nav hidden">
-          <Button></Button>
-        </div>
+      <div className="mobile-nav hidden">
+        <Button></Button>
+      </div>
       <div className="gh-logo__command-pallete__nav-options-wrapper flex flex-row items-center justify-start gap-4">
         <div className="gh-logo-wrapper">
-          <img src={GHLogo} width={'30'} height={'30'} alt="github-logo" className="cursor-pointer" />
+          <img
+            src={GHLogo}
+            width={'30'}
+            height={'30'}
+            alt="github-logo"
+            className="cursor-pointer"
+          />
         </div>
-        <div className="command-palette-input-wrapper rounded bg-gh-ui-base border border-gray-600 px-2 py-1 flex flex-row items-center justify-between w-[260px] max-md:hidden">
+        <div className="command-palette-input-wrapper rounded bg-gh-ui-base border border-gray-600 px-2 py-1 flex flex-row items-center justify-between w-fit max-md:hidden">
           <input
             type="text"
             id="command-palette"
-            className="command-palette-input focus:outline-none text-xs text-white placeholder:text-gray-300 bg-transparent"
+            className="command-palette-input focus:outline-none text-xs text-white placeholder:text-gray-300 bg-transparent w-[240px] focus:w-[320px] transition-all"
             placeholder="Search or jump to..."
           />
           <img
