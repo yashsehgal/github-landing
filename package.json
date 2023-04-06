@@ -47,6 +47,8 @@
     ]
   },
   "devDependencies": {
+    "@types/aos": "^3.0.4",
+    "aos": "^2.3.4",
     "class-variance-authority": "^0.5.1",
     "clsx": "^1.2.1",
     "gh-pages": "^5.0.0",

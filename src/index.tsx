@@ -9,6 +9,11 @@ import HeroSectionBG from './lib/media/hero-bg-md.webp';
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement,
 );
+
+document.addEventListener('scroll', () => {
+  console.log('height:', window.scrollY);
+});
+
 root.render(
   <React.StrictMode>
     <div className="app-container relative">

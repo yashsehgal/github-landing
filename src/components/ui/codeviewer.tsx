@@ -13,8 +13,11 @@ import Logger from './logger';
 import GlobeOutput from '../../lib/media/globe.svg';
 import GHLogo from '../../lib/media/gh-logo.svg';
 import { ReactComponent as NotificationIcon } from '../../lib/media/icons/notification.svg';
+import { useEffect, useLayoutEffect, useRef, useState } from 'react';
 
 const CodeViewer: React.FunctionComponent = () => {
+  const [renderLogger, setRenderLogger] = useState(false);
+
   return (
     <div className="code-viewer-component overflow-hidden bg-gh-blocks rounded-md border border-gray-600 h-[600px]">
       <div className="code-viewer-header p-4 flex flex-row items-center justify-between border-b border-gray-700">
@@ -105,7 +108,10 @@ const CodeViewer: React.FunctionComponent = () => {
                   {'Debug Console'}
                 </span>
               </div>
-              <div className="py-2 px-4">
+              <div
+                className="py-2 px-4"
+                data-aos="fade-up"
+                data-aos-anchor-placement="top-bottom">
                 <Logger />
               </div>
             </div>

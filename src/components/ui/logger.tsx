@@ -1,3 +1,4 @@
+import { useEffect, useState } from 'react';
 import { getLoggerData } from '../../lib/localdb/logger-data';
 
 interface LogProps {
@@ -9,9 +10,23 @@ interface LogProps {
 }
 
 const Logger: React.FunctionComponent = () => {
+  const [logs, setLogs] = useState<any>([]);
+
+  useEffect(() => {
+    const logDelay = 140;
+    const timer = setTimeout(() => {
+      if (getLoggerData()?.length > logs?.length) {
+        setLogs([...logs, getLoggerData()[logs?.length]]);
+        console.log('height working...');
+      }
+    }, logDelay);
+
+    return () => clearTimeout(timer);
+  }, [logs, getLoggerData()]);
+
   return (
     <div className="logs-container">
-      {getLoggerData()?.map((log: LogProps, logIndex: number) => (
+      {logs?.map((log: LogProps, logIndex: number) => (
         <Log {...log} key={logIndex} />
       ))}
     </div>
