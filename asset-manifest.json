@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/github-landing/static/css/main.b21328c9.css",
-    "main.js": "/github-landing/static/js/main.6eb7277e.js",
+    "main.js": "/github-landing/static/js/main.cac61d80.js",
     "react-syntax-highlighter/refractor-core-import.js": "/github-landing/static/js/react-syntax-highlighter/refractor-core-import.2ae93659.chunk.js",
     "react-syntax-highlighter_languages_refractor_abap.js": "/github-landing/static/js/react-syntax-highlighter_languages_refractor_abap.96536946.chunk.js",
     "react-syntax-highlighter_languages_refractor_actionscript.js": "/github-landing/static/js/react-syntax-highlighter_languages_refractor_actionscript.e1dc4aed.chunk.js",
@@ -179,7 +179,7 @@
     "static/media/dropdown-arrow.svg": "/github-landing/static/media/dropdown-arrow.1a0eec6765834192624a9c4d2badede3.svg",
     "static/media/slash-command-icon.svg": "/github-landing/static/media/slash-command-icon.c70e396f7441bd031c4656fdb871f880.svg",
     "main.b21328c9.css.map": "/github-landing/static/css/main.b21328c9.css.map",
-    "main.6eb7277e.js.map": "/github-landing/static/js/main.6eb7277e.js.map",
+    "main.cac61d80.js.map": "/github-landing/static/js/main.cac61d80.js.map",
     "refractor-core-import.2ae93659.chunk.js.map": "/github-landing/static/js/react-syntax-highlighter/refractor-core-import.2ae93659.chunk.js.map",
     "react-syntax-highlighter_languages_refractor_abap.96536946.chunk.js.map": "/github-landing/static/js/react-syntax-highlighter_languages_refractor_abap.96536946.chunk.js.map",
     "react-syntax-highlighter_languages_refractor_actionscript.e1dc4aed.chunk.js.map": "/github-landing/static/js/react-syntax-highlighter_languages_refractor_actionscript.e1dc4aed.chunk.js.map",
@@ -336,6 +336,6 @@
   },
   "entrypoints": [
     "static/css/main.b21328c9.css",
-    "static/js/main.6eb7277e.js"
+    "static/js/main.cac61d80.js"
   ]
 }
