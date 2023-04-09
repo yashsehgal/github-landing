@@ -1,6 +1,7 @@
 import ViewContainer from './components/layouts/view-container';
 import HeroSection from './components/sections/hero';
 import Productivity from './components/sections/productivity';
+import Products from './components/sections/products';
 
 import Timeline from './lib/media/section-assets/timeline.svg';
 
@@ -16,6 +17,7 @@ function App() {
           <HeroSection />
         </main>
         <Productivity />
+        <Products />
       </ViewContainer>
     </div>
   );

@@ -1,5 +1,5 @@
-<svg width="388" height="2900" viewBox="0 0 388 2900" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M47 2898L47 2247" stroke="url(#paint0_linear_68_287)" stroke-width="3" stroke-linecap="round"/>
+<svg width="388" height="3423" viewBox="0 0 388 3423" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M47 3421L47.0001 2247" stroke="url(#paint0_linear_68_287)" stroke-width="3" stroke-linecap="round"/>
 <g clip-path="url(#clip0_68_287)">
 <path d="M47.7893 553.849V229.126" stroke="url(#paint1_linear_68_287)" stroke-width="3" stroke-linecap="round"/>
 <path d="M351.144 70.2186V99.5369C351.144 180.092 289.625 245.393 213.737 245.393H141.417C89.4938 245.393 47.4016 290.074 47.4016 345.191V386.268" stroke="url(#paint2_linear_68_287)" stroke-width="3" stroke-linecap="round"/>
@@ -84,7 +84,7 @@
 <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
 <feGaussianBlur stdDeviation="12" result="effect1_foregroundBlur_68_287"/>
 </filter>
-<linearGradient id="paint0_linear_68_287" x1="48.4998" y1="2068.64" x2="120.514" y2="2815.94" gradientUnits="userSpaceOnUse">
+<linearGradient id="paint0_linear_68_287" x1="48.4999" y1="1925.36" x2="277.949" y2="3245.66" gradientUnits="userSpaceOnUse">
 <stop stop-color="#ACFF9E"/>
 <stop offset="1" stop-color="#138B00" stop-opacity="0"/>
 </linearGradient>

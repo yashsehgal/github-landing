@@ -9,6 +9,7 @@ import ProductitySectionTimeline from '../../lib/media/section-assets/git-branch
 import Aos from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from 'react';
+import Products from './products';
 
 const Productivity: React.FunctionComponent = () => {
   useEffect(() => {
