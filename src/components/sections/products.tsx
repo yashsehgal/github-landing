@@ -14,7 +14,7 @@ const Products: React.FunctionComponent = () => {
       <EffectContainer
         className="github-copilot-container"
         id="github-copilot-container">
-        <div className="github-copilot-content-body-wrapper flex flex-row items-center justify-between">
+        <div className="github-copilot-content-body-wrapper flex flex-row items-center justify-between max-lg:flex-col max-lg:gap-12">
           <div className="flex flex-col items-start justify-start gap-10">
             <h3 className="text-gray-500 font-medium text-2xl max-md:text-base">
               <span className="text-white">GitHub Copilot</span> is your AI pair{' '}
@@ -31,11 +31,11 @@ const Products: React.FunctionComponent = () => {
           </div>
         </div>
       </EffectContainer>
-      <div className="more-products-container grid grid-cols-2 items-start justify-between gap-8 h-[800px]">
+      <div className="more-products-container grid grid-cols-2 items-start justify-between gap-8 h-[800px] max-lg:grid-cols-1">
         <EffectContainer
-          className="github-actions-container h-[690px] p-0"
+          className="github-actions-container h-[690px] p-0 max-lg:h-[500px]"
           id="github-actions-container">
-          <div className="github-actions-content-body-wrapper overflow-hidden relative">
+          <div className="github-actions-content-body-wrapper overflow-hidden relative max-lg:flex-col max-lg:gap-12">
             <div className="flex flex-col items-start justify-start gap-6 p-12">
               <h3 className="text-gray-500 font-medium text-2xl max-md:text-base">
                 <span className="text-white">GitHub Actions</span> automates
@@ -49,9 +49,9 @@ const Products: React.FunctionComponent = () => {
           </div>
         </EffectContainer>
         <EffectContainer
-          className="github-mobile-container h-[690px] p-0 flex flex-row justify-between"
+          className="github-mobile-container h-[690px] p-0 flex flex-row justify-between max-lg:h-[500px]"
           id="github-mobile-container">
-          <div className="github-mobile-content-body-wrapper overflow-hidden relative">
+          <div className="github-mobile-content-body-wrapper overflow-hidden relative max-lg:flex-col max-lg:gap-12">
             <div className="flex flex-col items-start justify-start gap-6 p-12">
               <h3 className="text-gray-500 font-medium text-2xl max-md:text-base">
                 <span className="text-white">GitHub Mobile</span> fits your
