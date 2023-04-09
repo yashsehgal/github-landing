@@ -9,12 +9,12 @@ const LinkAction: React.FunctionComponent<
   return (
     <button
       className={cn(
-        'hover-underline-animation py-2 bg-transparent text-xl max-md:text-base font-semibold text-white flex flex-row items-center justify-center gap-2 hover:gap-3 transition-all',
+        'py-2 bg-transparent text-xl max-md:text-base font-semibold text-white flex flex-row items-center justify-center gap-2 hover:gap-3 transition-all',
         className,
       )}
       onMouseEnter={() => setMouse(true)}
       onMouseLeave={() => setMouse(false)}>
-      {attr?.children}
+      <span className="hover-underline-animation">{attr?.children}</span>
       <span className="transition-all">
         {!mouse ? (
           <ChevronRight className="w-4 h-4" />
