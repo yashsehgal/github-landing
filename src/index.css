@@ -72,9 +72,9 @@ body {
   transition: opacity 1.2s cubic-bezier(0.16, 1, 0.3, 1);
   mix-blend-mode: soft-light;
   will-change: transform;
-  filter: blur(180px);
+  filter: blur(240px);
 }
 
 .effect-container:hover::before {
-  --size: 800px;
+  --size: 700px;
 }
