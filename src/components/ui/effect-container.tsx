@@ -17,7 +17,7 @@ const EffectContainer: React.FunctionComponent<
     });
   });
   return (
-    <Tilt tiltMaxAngleX={2} tiltMaxAngleY={2}>
+    <Tilt tiltMaxAngleX={1} tiltMaxAngleY={1}>
       <div
         className={cn(
           'effect-container p-12 rounded-md border border-zinc-800 shadow hover:border-transparent',
