@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/github-landing/static/css/main.e5fc7eb0.css",
-    "main.js": "/github-landing/static/js/main.3b28cf94.js",
+    "main.css": "/github-landing/static/css/main.4d1838c5.css",
+    "main.js": "/github-landing/static/js/main.c7630237.js",
     "react-syntax-highlighter/refractor-core-import.js": "/github-landing/static/js/react-syntax-highlighter/refractor-core-import.2ae93659.chunk.js",
     "react-syntax-highlighter_languages_refractor_abap.js": "/github-landing/static/js/react-syntax-highlighter_languages_refractor_abap.96536946.chunk.js",
     "react-syntax-highlighter_languages_refractor_actionscript.js": "/github-landing/static/js/react-syntax-highlighter_languages_refractor_actionscript.e1dc4aed.chunk.js",
@@ -158,10 +158,13 @@
     "static/media/globe.svg": "/github-landing/static/media/globe.61021b08efe270fbe6a6201eadd3b5b6.svg",
     "static/media/Mona-Sans.ttf": "/github-landing/static/media/Mona-Sans.7fae628b329f4d1ccdb8.ttf",
     "static/media/spacecraft.svg": "/github-landing/static/media/spacecraft.d28076390c91abaff29cb65fdb0a17da.svg",
+    "static/media/illu-actions.webp": "/github-landing/static/media/illu-actions.00b9df3090e14c6e1438.webp",
+    "static/media/illu-mobile.webp": "/github-landing/static/media/illu-mobile.319e92bca9ff83398560.webp",
+    "static/media/copilot-demo-code-block-view.svg": "/github-landing/static/media/copilot-demo-code-block-view.987748f5357cafa322e450e7de1e7240.svg",
     "static/media/bg-stars-1.webp": "/github-landing/static/media/bg-stars-1.fc2e2260f9c30d2ec876.webp",
     "static/media/illo-context-menu.png": "/github-landing/static/media/illo-context-menu.55c645530f834e4570d3.png",
     "static/media/mercedes-benz.svg": "/github-landing/static/media/mercedes-benz.ee3c2818b7b3a979f7aadb4ba13806b6.svg",
-    "static/media/timeline.svg": "/github-landing/static/media/timeline.e4da33cb4240dcfe397c3f840cfa93b3.svg",
+    "static/media/timeline.svg": "/github-landing/static/media/timeline.9abe6745139ff6474670487a8dd804ac.svg",
     "static/media/pinterest.svg": "/github-landing/static/media/pinterest.3ca64095d24d28355957797ea957227b.svg",
     "static/media/telus.svg": "/github-landing/static/media/telus.50d2853160454375f201c3ff07abe027.svg",
     "static/media/p-and-g.svg": "/github-landing/static/media/p-and-g.3ba317a7958688368270e2c74875a0a9.svg",
@@ -175,8 +178,8 @@
     "static/media/create.svg": "/github-landing/static/media/create.6542e6e89231e25db95c6ddad4ff7486.svg",
     "static/media/dropdown-arrow.svg": "/github-landing/static/media/dropdown-arrow.1a0eec6765834192624a9c4d2badede3.svg",
     "static/media/slash-command-icon.svg": "/github-landing/static/media/slash-command-icon.c70e396f7441bd031c4656fdb871f880.svg",
-    "main.e5fc7eb0.css.map": "/github-landing/static/css/main.e5fc7eb0.css.map",
-    "main.3b28cf94.js.map": "/github-landing/static/js/main.3b28cf94.js.map",
+    "main.4d1838c5.css.map": "/github-landing/static/css/main.4d1838c5.css.map",
+    "main.c7630237.js.map": "/github-landing/static/js/main.c7630237.js.map",
     "refractor-core-import.2ae93659.chunk.js.map": "/github-landing/static/js/react-syntax-highlighter/refractor-core-import.2ae93659.chunk.js.map",
     "react-syntax-highlighter_languages_refractor_abap.96536946.chunk.js.map": "/github-landing/static/js/react-syntax-highlighter_languages_refractor_abap.96536946.chunk.js.map",
     "react-syntax-highlighter_languages_refractor_actionscript.e1dc4aed.chunk.js.map": "/github-landing/static/js/react-syntax-highlighter_languages_refractor_actionscript.e1dc4aed.chunk.js.map",
@@ -332,7 +335,7 @@
     "787.81d5b727.chunk.js.map": "/github-landing/static/js/787.81d5b727.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e5fc7eb0.css",
-    "static/js/main.3b28cf94.js"
+    "static/css/main.4d1838c5.css",
+    "static/js/main.c7630237.js"
   ]
 }
