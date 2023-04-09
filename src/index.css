@@ -67,7 +67,7 @@ body {
   width: var(--size);
   height: var(--size);
   background: radial-gradient(circle closest-side, #7ee787, #7ee78750);
-  transform: translate(-50%, -50%);
+  transform: translate(-40%, -40%);
   /* transition: width 0.2s ease, height 0.2s ease; */
   transition: opacity 1.2s cubic-bezier(0.16, 1, 0.3, 1);
   mix-blend-mode: soft-light;
